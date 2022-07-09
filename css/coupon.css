@@ -1,0 +1,172 @@
+@media screen and (max-width: 767px) { /*ä»¥ä¸‹ã®æ™‚*/
+    .coupon .container {
+        display: block;
+        margin: 50px 0;
+    }
+    .coupon .left {
+        width: 100%;
+        font-weight: 800;
+        text-align: center;
+    }
+    .coupon .left .left-top {
+	font-size: 30px;
+    }
+
+    .coupon .right {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .coupon .right .scan {
+        margin: 20px 0;
+    }
+
+    .menber_id button {
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .cou-thank {
+        display: block;
+        padding: 40px 0;
+    }
+    .cou-thank .title {
+        font-size: 24px;
+    }
+    .cou-thank .member {
+        width: 100%;
+    }
+    .cou-thank .thanks-coupon {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .cou-thank .thanks-coupon .coupon-name {
+        font-size: 20px;
+    }
+    .cou-thank .thanks-coupon .coupon-date {
+       font-size: 16px;
+    }
+}
+.coupon-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    /* overflow: auto; */
+    background-color: rgba(0,0,0,0.5);
+}
+.no-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    /* overflow: auto; */
+    background-color: rgba(0,0,0,0.5);
+}
+
+.coupon-modal-content{
+background-color: white;
+border-radius: 8px;
+padding: 20px;
+width: 400px;
+height: 450px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 18px;
+text-align: center;
+}
+.modal-body {
+	position: relative;
+}
+#close-modal {
+	position: absolute;
+	top: -25px;
+	right: 0;
+	font-size: 25px;
+	cursor: pointer;
+}
+.modal-body h3 {
+	margin: 20px auto;
+	font-size: 20px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 20px;
+}
+#name {
+	font-weight: bold;
+	padding-right: 10px;
+	font-size: 24px;
+}
+#coupon_name {
+	font-weight: bold;
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+.modal-body button {
+	width: 80%;
+	display: block;
+	font-size: 20px;
+	padding: 15px 50px;
+	color: #fff;
+	background-color: #E81317;
+	border-radius: 5px;
+	font-weight: bold;
+	margin: 50px auto 0 auto;
+	border: none;
+}
+.modal-body a {
+	width: 80%;
+	display: block;
+	font-size: 20px;
+	padding: 15px 50px;
+	color: #fff;
+	background-color: #E81317;
+	border-radius: 5px;
+	font-weight: bold;
+	margin: 50px auto 0 auto;
+	border: none;
+}
+.unsupported a {
+    text-decoration: none;
+	width: 300px;
+	display: block;
+	font-size: 20px;
+	padding: 15px 50px;
+	color: #fff;
+	background-color: #E81317;
+	border-radius: 5px;
+	font-weight: bold;
+	margin: 50px auto 0 auto;
+	border: none;
+}
+.alert {
+    text-align: left;
+    margin-top: 40px;
+}
+.alert-2 {
+    text-align: center;
+    margin-top: 40px;
+}
+#close-settion-modal
+ {
+	position: absolute;
+	top: -25px;
+	right: 0;
+	font-size: 25px;
+	cursor: pointer;
+}
+.modal-body .py {
+	padding: 10px 0;
+}
+.modal-body input[type="number"] {
+	padding: 5px;
+	margin: 10px auto;
+}
