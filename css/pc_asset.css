@@ -2137,6 +2137,15 @@ a.btnView2:hover {
 	font-size: 1.2em;
 	padding: 1em;
 }
+
+#campaign-form .people {
+	text-shadow: 0px 0px 5px rgba(0, 0, 0,0.3);
+		font-size:14px;
+	position: absolute;
+    top: 2%;
+    left: 55%;
+}
+
 .sticky .signup,
 .sticky .login {
 	display: flex;
