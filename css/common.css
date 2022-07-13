@@ -747,10 +747,14 @@ body.no-navigation #globalNav {
 -------------------------------------------------------------- **/
 #container {
 	overflow: hidden;
-		background-image: url(../image/back-image02.png);
 
 }
 
+
+#campaign-container {
+	background-image: url(../image/back-image02.png);
+
+}
 #main {
 	min-height: 70vh;
 }
@@ -2177,3 +2181,4 @@ ul.newsList {
 	color: #e9c87b;
 	text-align: left;
 }
+
