@@ -747,6 +747,8 @@ body.no-navigation #globalNav {
 -------------------------------------------------------------- **/
 #container {
 	overflow: hidden;
+		background-image: url(../image/back-image02.png);
+
 }
 
 #main {
