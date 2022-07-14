@@ -753,6 +753,8 @@ body.no-navigation #globalNav {
 
 #campaign-container {
 	background-image: url(../image/back-image02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 #main {
